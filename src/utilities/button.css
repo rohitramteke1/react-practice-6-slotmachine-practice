@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&family=Raleway:wght@300&family=Roboto&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.btn-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 83, 83);
+}
+
+.btn { 
+    color: wheat;
+    background-color: rgb(43, 43, 43);
+    font-family: 'Raleway';
+    font-size: 20px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgb(29, 28, 28), 
+                -5px -5px 3px 1px rgb(109, 109, 109);
+}
